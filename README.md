@@ -176,9 +176,9 @@ In general, the kNN model did well at predicting strategy returns better than th
 The classification report numbers were well balanced for finance with a 50% accuracy, 44% / 56% precision, and 46% /53% recall.
  
  
-![kNN2_6mo_offset_plot](./images/kNN2_36mo_offset_plot.png)
+![kNN2_36mo_offset_plot](./images/kNN2_36mo_offset_plot.png)
 
-![kNN2_6mo_offset_report](./images/kNN2_36mo_offset_report.png)
+![kNN2_36mo_offset_report](./images/kNN2_36mo_offset_report.png)
 
 I was curious what would happen if with the kNN model if I really increased the testing set. Would it better handle the run in with excess volitility? The answer was definitely not.  The performance of this model deteriorated significantly with the excess training data, as can be visualized in the plot above.
 
